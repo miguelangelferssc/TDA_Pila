@@ -46,7 +46,7 @@ public class PilaArreglo <E> implements Pila<E>{
 
     @Override
     public E top() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+      return p[cantidad];  
     }
     
     
